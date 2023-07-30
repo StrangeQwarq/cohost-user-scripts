@@ -8,8 +8,8 @@
 window.addEventListener('load', () => {
 	let menuItems = document.querySelector('[role="menu"]');
   
-  if (menuItems) {
-    menuItems.style.position = 'sticky';
+	if (menuItems) {
+		menuItems.style.position = 'sticky';
 		menuItems.style.top = '5rem';
-  }
+	}
 });

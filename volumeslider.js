@@ -11,9 +11,9 @@ const observer = new MutationObserver((mutations) => {
 		if (m.type === 'childList') {
 			for (let m2 of m.addedNodes) {
 				if (!m2 || !('querySelector' in m2)) continue;
-				let audio = m2.querySelector('audio');
-				if (audio) {
-					addVolumeSlider(audio);
+				let audioElements = m2.querySelectorAll('audio');
+				for (let a of audioElements) {
+					addVolumeSlider(a);
 				}
 			}
 		}
