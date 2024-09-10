@@ -5,6 +5,7 @@
 [data-testid="profileHeaderFollowsButton"],
 [data-testid="profileHeaderFollowersButton"],
 [aria-label$=followers],
-[aria-label$=following] {
+[aria-label$=following],
+[style="background-color: rgb(20, 27, 35); border-radius: 4px; padding: 4px 8px;"] {
     display: none;
 }
