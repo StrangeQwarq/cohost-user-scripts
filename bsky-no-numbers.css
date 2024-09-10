@@ -1,0 +1,10 @@
+[data-testid="likeCount"],
+[data-testid="repostCount"],
+[data-testid="likeCount-expanded"],
+[data-testid="repostCount-expanded"],
+[data-testid="profileHeaderFollowsButton"],
+[data-testid="profileHeaderFollowersButton"],
+[aria-label$=followers],
+[aria-label$=following] {
+    display: none;
+}
