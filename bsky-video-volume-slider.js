@@ -50,7 +50,6 @@ function addVolumeSliders() {
     });
 
     node.after(slider);
-    node.style.display = 'none';
   }
 }
 
